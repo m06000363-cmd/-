@@ -367,7 +367,7 @@ async function send() {
     '<span class="status">mr.AI думает...</span>');
 
   try {
-    const response = await fetch("/api/chat", {
+ const response = await fetch("https://worker.m06000363.workers.dev/", {
       method:"POST",
       headers:{
         "Content-Type":"application/json"
